@@ -16,7 +16,7 @@ class Program
             Console.WriteLine("0. Выход");
             Console.Write("Выберите действие: ");
 
-            string? choice = Console.ReadLine();
+            string choice = Console.ReadLine();
             Console.WriteLine();
             try
             {

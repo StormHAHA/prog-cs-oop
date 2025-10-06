@@ -85,7 +85,7 @@ namespace lab1_prog.Tests
             Assert.Contains("Ford", output);
             Assert.Contains("Focus", output);
             Assert.Contains("2015", output);
-            Assert.Contains("800 000", output); // может быть с неразрывным пробелом
+            Assert.Contains(v.VehiclePrice.ToString("N0") + " ₽", output);
         }
 
         // ==== ТЕСТЫ ДЛЯ Car ====
